@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(rgba(56, 0, 109, 0.61), rgba(119, 0, 230, 0.61), rgba(141, 58, 219, 0.61), rgba(169, 102, 231, 0.726));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 98vh;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container01{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(179, 15, 15);
+    color: white;
+    width: 110px;
+    height: 60px;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 30px;
+}
+
+#titulo{
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#sim:hover{
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    width: 180px;
+    height: 130px;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 90px; 
+}
